@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Level | template 2</title>
+	<link rel="stylesheet" href="Css/style.css">
+	<link rel="stylesheet" href="Css/all.min.css">
+	<link rel="stylesheet" href="Css/normalize.css">
+	<!-- imoprt swiper style sheet -->
+	<!-- import swiper JS file -->
+	<link rel="stylesheet" href="Css/swiper.css"/>
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="images/logo.png" alt="logo-img">
+				<h1>Level</h1>
+			</div>
+			<nav>
+				<ul>
+					<a class="active" href="#search">Search</a>
+					<a href="#services">Services</a>
+					<a href="#recommends">Recommends</a>
+					<a href="#contact">Contact</a>
+				</ul>
+			</nav>
+			<button id="mobile-btn" class="mobile-btn">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</div>
+		<div id="mobile">
+			<div class="container">
+				<div id="mobile-menu">
+						<a href="#search">Search</a>
+						<a href="#services">Services</a>
+						<a href="#recommends">Recommends</a>
+						<a href="#contact">Contact</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="landing">
+		<form action="">
+			<div class="location">
+				<i class="fa-solid fa-location-dot"></i>
+				<input type="text" placeholder="Type your distination" class="location">
+			</div>	
+			<div class="calendar check-in">
+				<i class="fa-solid fa-calendar-days"></i>
+				<input type="date" id="inputCheckIn" placeholder="Check In" class="location custom-calendar">
+			</div>
+			<div class="calendar check-out">
+				<i class="fa-solid fa-calendar-days"></i>
+				<input type="date" id="inputCheckOut" placeholder="Check Out" class="location custom-calendar">
+			</div>
+			<div class="rooms">
+				<i class="fa-solid fa-bed"></i>
+				<select class="form-control" id="form-control">
+					<option value="Rooms">Rooms</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+			</div>
+			<div class="adults">
+				<i class="fa-solid fa-user"></i>
+				<select class="form-control" id="form-control">
+					<option value="adults">Adults</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+			</div>
+			<div class="childrens">
+				<i class="fa-solid fa-user"></i>
+				<select class="form-control" id="form-control">
+					<option value="childrens">Childrens</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+			</div>
+			<button type="submit">CHECK</button>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora </p>
+		</form>
+	</section>
+	<section id="services" class="services">
+		<div class="title">
+			<h1>We are here to help you?</h1>
+			<p>Subscribe to get our newsletters</p>
+			<button>Subscribe newsletters</button>
+		</div>
+		<div class="container">
+			<div class="cards">
+				<div class="card">
+					<i class="fa-solid fa-gavel"></i>
+					<h1>level template by tooplate website</h1>
+					<p>You are allowed to download, edit and use this template for your business or client websites.</p>
+					<button>CONTINUE READING</button>
+				</div>
+				<div class="card">
+					<i class="fa-solid fa-plane"></i>
+					<h1>Original website template producer</h1>
+					<p>You are NOT allowed to re-distribute the downloadable template ZIP file on any website.</p>
+					<button>CONTINUE READING</button>
+				</div>
+				<div class="card">
+					<i class="fa-brands fa-meetup"></i>
+					<h1>Contact us if you have any question</h1>
+					<p>If you see this template being distributed on any other site, that is an illegal copy.</p>
+					<button>CONTINUE READING</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recommands" id="recommends" >
+		<div class="container">
+			<div class="swiper">
+			<div class="card-wrapper">
+				<ul class="slides swiper-wrapper" >
+					<li class="card swiper-slide">
+						<img src="images/img-01.jpg" alt="img-1">
+						<div class="content">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, ipsum.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, tenetur!
+							</p>
+							<button>READ MORE</button>
+						</div>
+					</li>
+					<li class="card swiper-slide">
+						<img src="images/img-02.jpg" alt="img-2">
+						<div class="content">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, corrupti?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, alias.
+							</p>
+							<button>READ MORE</button>
+						</div>
+					</li>
+					<li class="card swiper-slide">
+						<img src="images/img-01.jpg" alt="img-3">
+						<div class="content">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum officia 
+								sint reiciendis ipsa, placeat dolore voluptatem velit repellat? Mollitia!
+							</p>
+							<button>MORE DETAILS</button>
+						</div>
+					</li>
+					<li class="card swiper-slide">
+						<img src="images/img-02.jpg" alt="img-4">
+						<div class="content">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quis?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, omnis.
+							</p>
+							<button>READ MORE</button>
+						</div>
+					</li>
+					<li class="card swiper-slide">
+						<img src="images/img-01.jpg" alt="img-5">
+						<div class="content">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, hic.
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sit.
+							</p>
+							<button>GET MORE INFO</button>
+						</div>
+					</li>
+					<li class="card swiper-slide">
+						<img src="images/img-02.jpg" alt="img-6">
+						<div class="content">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, odit?
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, reiciendis.
+							</p>
+							<button>READ MORE</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="swiper-pagination"></div>
+			</div>
+			<div class="places">
+			<div class="head">
+				<h3>Recommaded Places</h3>
+				<p>Places that we recommend for you</p>
+			</div>
+			<div class="continents">
+				<div class="continent">
+					<img src="images/europe.jpg" alt="europe-img">
+					<h3>EUROPE</h3>
+				</div>
+				<div class="continent">
+					<img src="images/asia.jpg" alt="asia-img">
+					<h3>ASIA</h3>
+				</div>
+				<div class="continent">
+					<img src="images/africa.jpg" alt="africa-img">
+					<h3>AFRICA</h3>
+				</div>
+				<div class="continent">
+					<img src="images/america.jpg" alt="america-img">
+					<h3>AMERICA</h3>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="video">
+		<div class="video-overlay">
+			<i class="fa-solid fa-play-circle" id="play"></i>
+			<i class="fa-solid fa-pause-circle" id="pause"></i>
+		</div>
+		<div class="video-container">
+			<video src="images/video.mp4" muted loop autoplay type="video/mp4">
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="container">
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=berlin&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+						<style>.gmap_canvas {overflow:hidden; background:none!important;}</style>
+				</div>
+			<form action="">
+				<div class="name">
+					<i class="fa-solid fa-user"></i>
+					<input type="text" placeholder="Name">
+				</div>
+				<div class="email">
+					<i class="fa-solid fa-envelope"></i>
+					<input type="text" placeholder="Email">
+				</div>
+				<div class="subject">
+					<i class="fa-solid fa-book"></i>
+					<input type="text" placeholder="Subject">
+				</div>
+				<div class="message">
+					<i class="fa-solid fa-comment-dots"></i>
+					<textarea placeholder="Message"></textarea>
+				</div>
+				<button>SEND MESSAGE NOW</button>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<p>Copyrights &copy; 2025 Your company -Design: <span>Samy Lahoues</span></p>
+	</footer>
+	<script src="Js/swiper.js"></script>
+	<script src="Js/main.js"></script>
+</body>
+</html>
